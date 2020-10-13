@@ -1,0 +1,201 @@
+#sidenav{
+  width: 40px;
+  height: 100vh;
+  background-color: #D5EDFF;
+  top: 0px;
+  position: fixed;
+}
+/* the top navbar for logo and name etc. */
+#topnav{
+  background-color: #FFFFFF;
+  top: 0px;
+  padding-left: 45px;    /* For the navbar */
+  display: inline-block;
+  width: 100%;
+  height: 5.54vh;
+  box-sizing: border-box;
+  color: #707070;
+}
+
+#logo{
+  padding: 12px 0px;
+}
+/* Icons that are to be moved to the right */
+#name, #profile, #notifications, #search{
+  float: right;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 30px;
+}
+/* small profile image */
+#profile-image{
+  height: 30px;
+  border-radius: 50%;
+}
+/* id for the a tag of profile image */
+#profile{
+  padding: 5px 0px;
+  margin-left: 50px;
+}
+/* Name of the user  */
+#name{
+  padding: 8px 0px;
+  font-size: 20px;
+  padding-right: 40px;
+  margin-left: 15px;
+}
+/* The main content area */
+#main-body{
+  position: relative;
+  z-index: 0;
+  box-sizing: border-box;
+  width: 97.4vw;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.coverImage{
+  position: absolute;
+  z-index: 1;
+  left: 40px;
+  background-color: black;
+  width: 98.86%;
+  height: 40vh;
+}
+.grid-container{
+  position: absolute;
+  z-index: 2;
+  width: 80vw;
+  top: 20vh;
+  left: 10vw;
+  right: 10vw;
+  display: grid;
+  grid-template-columns: 4fr 12fr;
+  grid-gap: 5vh;
+}
+.Box-1{
+  grid-column: 1 / 3;
+  width: 100%;
+  background-color: white;
+  height: 30vh;
+  border-radius: 20px;
+  box-shadow: 2px 8px 8px #B7B7B7;
+  display: flex;
+  flex-grow: row;
+}
+.Profile-Image{
+  z-index: 3;
+  background-color: inherit;
+  border-radius: 20px;
+  border: 3px white solid;
+  height: 26vh;
+  width: 26vh;
+  box-shadow: 1px 6px 6px #C2C2C2;
+  margin-top: -8vh;
+  margin-left: 6vh;
+
+}
+.User-Data{
+  display: flex;
+  flex-direction: row;
+  margin-top: 4vh;
+  margin-left: 2vw;
+}
+#User-Data{
+  margin-right: 8.4vw;
+}
+.User-Data-1{
+  display: flex;
+  flex-direction: column;
+}
+.User-Name{
+  font-size: 30px;
+}
+.User-Nickname{
+  font-size: 18px;
+  opacity: 60%;
+  padding-top: 1vh;
+}
+.Social-Media-Links{
+  display: flex;
+  flex-direction: row;
+  margin-top: 8vh;
+}
+#Icons{
+  height: 4.5vh;
+  opacity: 60%;
+  margin-right: 3vh;
+}
+.User-Data-2{
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.6vh;
+}
+#User-Review-Rating{
+  font-size: 26px;
+}
+.User-Info{
+  opacity: 60%;
+  font-size: 14px;
+  padding-top: 0.2vh;
+}
+#User-Mail{
+  margin-top: 8.9vh;
+  font-size: 20px;
+}
+.User-Data-3{
+  display: flex;
+  flex-direction: column;
+}
+.Box-2{
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 8px 8px #C2C2C2;
+  padding-top: 4vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.Skilllies-Earned{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px black solid;
+}
+.Skilllies-Heading{
+  font-size: 23px;
+  padding-bottom: 4vh;
+}
+#Skilllies-Earned{
+  font-size: 34px;
+  margin-left: 3.2vw;
+  margin-top: -1.1vh;
+}
+.Bagdes-Recieved{
+  font-size: 24px;
+  padding-top: 4vh;
+}
+.Badges-List{
+  list-style-type: none;
+  padding-left: 0;
+  opacity: 90%;
+}
+.Box-3{
+  padding-left: 10px;
+  padding-top: 25px;
+  padding-right: 40px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 8px 8px #C2C2C2;
+}
+.About-Me-Heading{
+  font-size: 30px;
+  padding: 10px;
+}
+.About-Me-Details{
+  font-size: 20px;
+  padding: 10px 10px 30px 10px;
+  opacity: 90%;
+}
+
+.Footer{
+}
