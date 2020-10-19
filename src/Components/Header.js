@@ -1,6 +1,7 @@
 import React from "react"
-import "./font-awesome/css/font-awesome.min.css"
-import UserData from "./UserData.js"
+import "../font-awesome/css/font-awesome.min.css"
+import "../CSS/Header.css"
+import UserData from "../Data/UserData.js"
 class Header extends React.Component {
   constructor(){
     super();

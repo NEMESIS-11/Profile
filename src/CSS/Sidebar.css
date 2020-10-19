@@ -1,0 +1,7 @@
+#sidenav{
+  width: 40px;
+  height: 100vh;
+  background-color: #D5EDFF;
+  top: 0px;
+  position: fixed;
+}
